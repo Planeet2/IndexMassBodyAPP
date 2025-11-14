@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="scripts" href="./scripts/scripts.js">
+</head>
+<body>
+    <div class="container">
+        <h1>Калькулятор ИМТ</h1>
+        <div class="form-group">
+            <label for="height">Рост (См):</label>
+            <input type="number" id="height" placeholder="Введите ваш рост в см">
+        </div>
+        <div class="form-grup">
+            <label for="weight">Вес (Кг):</label>
+            <input type="number" id="weight" placeholder="Введите ваш вес в кг">
+        </div>
+        <button onclick="calcImt()">Высчитать ИМТ</button>
+        <div id="result"></div>
+    </div>
+    <script src="./scripts/scripts.js"></script>
+</body>
+</html>
